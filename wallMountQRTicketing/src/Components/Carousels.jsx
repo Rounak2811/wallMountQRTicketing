@@ -8,7 +8,7 @@ function Carousels() {
             <div id="carouselExampleAutoplaying" className="carousel slide p-20" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={image1} className="d-block w-50 m-auto" alt="Kolkata Metro underwater train" />
+                        <img src={image1} className="d-block w-70 m-auto" alt="Kolkata Metro underwater train" />
                     </div>
                     <div className="carousel-item">
                         <img src={image2} className="d-block w-50 m-auto" alt="Kolkata Metro train" />
