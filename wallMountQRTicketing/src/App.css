@@ -19,15 +19,18 @@
 }
 
 .metro-carousel {
+  height:50%;
   width: 50%;
   margin: 0 auto;
 }
 
 .metro-carousel-image {
   width: 100%;
-  height: 220px;
-  object-fit: contain;
+  height: 350px;
+  object-fit: cover;
   object-position: center;
+  border-radius: 10%;
+  border-radius: 16px;
 }
 
 @media (max-width: 768px) {
@@ -44,6 +47,8 @@
 
   .metro-carousel-image {
     height: 250px;
+    object-fit: cover;
+    border-radius: 16px;
   }
 
   .railwayLogo {
@@ -116,7 +121,7 @@ body,
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url('./assets/background_image.jpeg');
+  background-image: url('./assets/background_image.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
