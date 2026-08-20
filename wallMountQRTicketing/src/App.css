@@ -30,9 +30,12 @@
   object-position: center;
 }
 
-@media (max-width: 1128px) {
+@media (max-width: 768px) {
   .logoPlusOrg {
-    flex-direction: column;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
   }
 
   .metro-carousel {
@@ -48,7 +51,7 @@
     width: 100px;
     border-radius: 50%;
     margin-top: 13px;
-    margin: auto
+    margin: auto;
   }
 
   .orgName {
