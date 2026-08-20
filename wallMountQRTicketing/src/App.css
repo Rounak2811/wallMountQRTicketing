@@ -31,6 +31,10 @@
 }
 
 @media (max-width: 768px) {
+  .logoPlusOrg {
+    flex-direction: column;
+  }
+
   .metro-carousel {
     width: 90%;
   }
