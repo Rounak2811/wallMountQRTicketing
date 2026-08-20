@@ -19,7 +19,7 @@
 }
 
 .metro-carousel {
-  height:50%;
+  height: 50%;
   width: 50%;
   margin: 0 auto;
 }
@@ -66,6 +66,10 @@
 
   .crisName {
     font-size: medium;
+  }
+
+  .buyTicket {
+    margin: 60px auto ;
   }
 }
 

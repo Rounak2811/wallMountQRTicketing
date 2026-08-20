@@ -13,7 +13,7 @@ function App() {
       <marquee><h2 className="">Welcome to Kolkata Metro - India's First Metro </h2></marquee>
       <div>
         <Carousels />
-        <button type="button" className="btn btn-primary m-2 p-2 fs-4 rounded-4">Buy Ticket</button>
+        <button type="button" className="btn btn-primary p-2 fs-4 rounded-4 buyTicket">Buy Ticket</button>
       </div>
       <CRISFooter />
     </div>
