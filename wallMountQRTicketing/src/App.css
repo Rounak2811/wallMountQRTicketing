@@ -25,14 +25,37 @@
 
 .metro-carousel-image {
   width: 100%;
-  height: auto;
+  height: 450px;
   object-fit: contain;
+  object-position: center;
 }
 
 @media (max-width: 768px) {
   .metro-carousel {
-    width: 80%;
+    width: 90%;
   }
+
+  .metro-carousel-image {
+    height: 250px;
+  }
+
+  .railwayLogo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 18px;
+  }
+
+}
+
+.railwayLogo {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 25px;
 }
 
 .hero {
