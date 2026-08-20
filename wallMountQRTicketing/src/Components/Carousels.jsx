@@ -5,6 +5,8 @@ import * as Bootstrap from 'bootstrap';
 import image1 from '../assets/kmrc_image_1.jpg';
 import image2 from '../assets/kmrc_image_2.jpg';
 import image3 from '../assets/kmrc_image_3.jpeg';
+import image4 from '../assets/kmrc_image_4.webp';
+import image5 from '../assets/kmrc_image_5.jpeg';
 
 function Carousels() {
     const carouselRef = useRef(null);
@@ -48,6 +50,12 @@ function Carousels() {
                     </div>
                     <div className="carousel-item">
                         <img src={image3} className="d-block metro-carousel-image" alt="Kolkata Metro history" />
+                    </div>
+                    <div className="carousel-item">
+                        <img src={image4} className="d-block metro-carousel-image" alt="Kolkata Metro history" />
+                    </div>
+                    <div className="carousel-item">
+                        <img src={image5} className="d-block metro-carousel-image" alt="Kolkata Metro history" />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
