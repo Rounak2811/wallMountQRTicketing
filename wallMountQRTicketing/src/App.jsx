@@ -20,9 +20,9 @@ function App() {
 
         <div className="logoPlusOrg">
           <img src={indian_railway_image} className="railwayLogo" />
-          <h1 className="orgName">Metro Railway Kolkata</h1>
+          <h1 className="orgName colorful-blink">Metro Railway Kolkata</h1>
         </div>
-        <marquee><h2 className="">Welcome to Kolkata Metro - India's First Metro </h2></marquee>
+        <marquee><h2 className="colorful-blink">Welcome to Kolkata Metro - India's First Metro </h2></marquee>
         {buyTicket && <div>
           <Carousels />
           <button type="button" className="btn btn-primary p-2 fs-4 rounded-4 buyTicket" onClick={handleBuyTicket}>Buy Ticket</button>
