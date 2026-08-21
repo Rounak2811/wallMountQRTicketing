@@ -69,8 +69,13 @@
   }
 
   .buyTicket {
-    margin: 60px auto ;
+    margin: 30px auto;
   }
+
+}
+
+.buyTicket {
+  margin: 20px auto;
 }
 
 .railwayLogo {
@@ -100,11 +105,13 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 1rem auto 0 auto;
 }
 
 .crisName {
   font-size: large;
+  text-align: centre;
+  padding-bottom: 1rem;
 }
 
 html,
@@ -136,9 +143,44 @@ body,
 .app-container {
   position: relative;
   isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
+.main-content {
+  flex-grow: 1;
+}
 
+.ticketForm {
+  width: 35%;
+  margin: auto auto;
+}
+
+@media (max-width: 768px) {
+  .ticketForm {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.form-label::after {
+  content: "*";
+  color: #dc3545;
+  font-weight: bold;
+}
+.transparent-card {
+  background: rgba(255, 255, 255, 0.4) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* .counter{
+  display: flex;
+} */
 .hero {
   position: relative;
 
